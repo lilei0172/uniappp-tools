@@ -44,6 +44,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/dateCalculator/dateCalculator",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

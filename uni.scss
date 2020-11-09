@@ -78,3 +78,16 @@ $uni-font-size-paragraph:30upx;
 html{
 	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;;
 }
+
+.copyright{
+		position: relative;
+		bottom: 0;
+		color:#333;
+		text-align: center;
+		font: normal normal 40rpx/40rpx "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+		.copyright-link{
+			display: inline;
+			padding: 0 16rpx;
+			color:#4d94db
+		}
+	}

@@ -30,7 +30,7 @@ export default {
 					},
 					1:{
 						title:"日期计算器",
-						url:""
+						url:"dateCalculator"
 					},
 					2:{
 						title:"抽象话生成",

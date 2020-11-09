@@ -1,11 +1,12 @@
 <template>
-	<view>
+	<view class="container">
 		<view class="search-card">
 			<view class="search-title">
 				<text>请输入待查询域名</text>
 			</view>
 			<view class="search-input">
-				<input type="text" :value="searchInfor" placeholder="Example: ccreed.com" />
+				<input type="text" :value="searchInfor" 
+				placeholder="Example: ccreed.com" confirm-type="search" />
 			</view>
 			
 		</view>
@@ -17,6 +18,16 @@
 				<image src="../../static/img/dot.svg" mode=""></image>
 				<text>可备案域名列表，请参考工信部可备案域名列表</text>
 			</view>
+		</view>
+		<view class="copyright">
+			<text space="nbsp">
+				© 2016~2020 
+				<h5 class="copyright-link" @tap="gotoCopyright()">
+					LiLei®
+				</h5> 
+				 All rights reserved
+			</text>
+			
 		</view>
 	</view>
 </template>
@@ -34,7 +45,9 @@
 			})
 		},
 		methods: {
-			
+			gotoCopyright:function(){
+				
+			}
 		}
 	}
 </script>
@@ -44,7 +57,7 @@
 		position: relative;
 		width: calc(100% - 100rpx);
 		margin: 20rpx 20rpx 100rpx;
-		padding: 20rpx 30rpx 80rpx 30rpx;
+		padding: 20rpx 30rpx 50rpx 30rpx;
 		border: 1px solid #ccc;
 		border-top:1px solid #eee;
 		border-radius: 20rpx;
@@ -83,5 +96,4 @@
 			}
 		}
 	}
-	
 </style>
